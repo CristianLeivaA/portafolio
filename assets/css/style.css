@@ -1,0 +1,45 @@
+:root {
+    --fuenteheading: "PT Sans", sans-serif;
+    --fuenteParrafo: 'Roboto', sans-serif;
+
+    --azul: #2185D5;
+    --gris: #3A4750;
+    --grafito: #303841;
+    --claro: #F3F3F3;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10 px */
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body { 
+    background-color: var(--grafito);
+    max-width: 1366px;
+    margin:auto;
+}
+
+.nav-titulo {
+    font-size: 13px;
+    margin: auto;
+    justify-content:center;
+    color: var(--claro)
+}
+
+.container {
+    margin-top: 60px;
+    color: var(--claro);
+    font-size: 20px;
+  }
+  .nombreCV {
+    color: var(--claro);
+    font-size: 40px;
+  }
+  .nombrecvT  { font-size: 20px;
+            color: var(--claro);
+}
