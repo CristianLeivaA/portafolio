@@ -17,7 +17,10 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
+nav{  
+    margin-top: 20px;
 
+}
 body { 
     background-color: var(--gris);
     max-width: 1280px;
@@ -26,8 +29,8 @@ body {
 
 .nav-titulo {
     font-size: 13px;
-    margin: auto;
-    justify-content:center;
+   text-align: center;
+    
     color: var(--claro)
 }
 
@@ -78,14 +81,72 @@ body {
     
     
     }
+    .discripcioncv{
+        font-family: var(--fuenteParrafo);
+        color: var(--claro);
+        font-size: 15px;
+        
+        
+        }
+    
 
     .subtitulo{
         font-family: var(--fuenteheading);
         color: var(--claro);
         align-items: center;
+        text-decoration: bold;
     }
 
+    .subtitulocv{
+        font-family: var(--fuenteheading);
+        color: var(--claro);
+        align-items: center;
+    }
     .icon-tec{
         color: var(--azul);
     margin-top: auto;
+    }
+
+    .card{
+        background-color: var(--gris);
+        border: 3px solid var(--grafito);
+        padding: 5px;
+        color: var(--claro);
+        
+    }
+    .btn{ 
+        
+        color: var(--claro);
+        background-color: var(--azul);
+    }
+
+    .footer-link{
+        margin: auto;
+        display: flex;
+        text-decoration: none;
+        font-size: 25px;
+        color: var(--claro);
+        font-family: var(--fuenteheading);
+        align-content: center;
+        justify-content: center;
+  
+     
+    }
+    .footer-link:hover {
+        color: var(--grafito);
+        --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+      }
+
+    .footer-text{
+
+        color:var(--grafito);
+        font-family: var(--fuenteParrafo);
+        text-align: center;
+        font-size: 15px;
+        margin-top: 10px;
+          
+    }
+
+    .cvPanel{ 
+        margin: 0 auto;
     }
